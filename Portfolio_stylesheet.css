@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition-delay: 145ms;
+
+
+
+}
+
+header{
+    background-color: ivory;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color: darkblue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+
+/*a here is a descendant of class navigation. Will be affected with all the same */
+.navigation a{
+    color: darkblue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 25px;
+
+}
+
+
+
+.navigation a:hover {
+    color: lightblue;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+
+.navigation a .extra:hover {
+    color: lightblue;
+    font-weight: normal;
+
+
+}
+ /*section is used to apply the effect to all sections in the page x*/
+section {
+    padding: 100px 200px;
+
+}
+
+/* min-height: is used to ensure the height doesnt get below the designated value */
+/*As well as when using min-height whatever marginal size happens in the elements within the class.
+ The marginal value will be added to the class height */
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("marius-masalar-rPOmLGwai2w-unsplash.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.main h2{
+    color: papayawhip;
+    font-size: 1.5em;
+    font-weight: Bold;
+
+
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: black;
+    font-size:3em;
+
+
+
+}
+.main h3{
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin-bottom: 65px;
+
+}
+/*we use the marigin with borders. one of the reason is that if we change the padding the border will remain unchanged and from within it will expand*/
+.main-btn {
+    color: darkgrey;
+    background-color: floralwhite;
+    text-decoration: none;
+    font-size: 1em;
+
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    border-radius: 15px; /*is the feature that rounds the corners of an element*/
+    margin-bottom: 30px;
+    margin-left: 75px;
+    transition: 0.7s ease;
+
+
+}
+
+.main-btn:hover{
+    background-color: darkgrey;
+    color: white;
+    transform: scale(1.1);
+}
+
+.social-links a{
+    color: white;
+    font-size: 2em;
+    display: inline-block;
+    padding-right: 10px;
+    margin-left: 48px;
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 2.6em;
+    color: darkblue;
+
+
+}
+
+.crafts{
+    background-color: lightgrey;
+
+
+
+}
+.skills{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 100px;
+    flex-wrap: wrap; /*this feature allows when screen is resized the block
+    elements sitting beside each other will go down*/
+    flex-direction: row;
+
+
+
+}
+
+.card {
+    display: flex;
+    width: 43%;
+    box-shadow: 0 5px 50px rgba(2 1 1);
+    margin-right: 30px;
+    color: grey;
+    padding-bottom: 15px;
+
+
+}
+.card a{
+    color: slategrey;
+}
+
+
+.card:hover{
+    background-color: lightgrey;
+    transform: scale(1.1);
+    transition: 0.7s;
+
+
+
+
+
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    font-size: 7em;
+    color: slategrey;
+
+
+
+
+
+}
+
+
+.description h3{
+    font-weight: 700;
+    text-align: center;
+
+
+}
+
+.description h6{
+    padding: 10px;
+    text-align: center;
+
+}
+
+.prog-skills h3{
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.prog-skills h6{
+    padding: 10px;
+    text-align: center;
+
+}
+
+.videos{
+    background-color: wheat;
+
+}
+.videos .content{
+    margin-top: 50px;
+}
+
+.video-card{
+    border: 10px solid white;
+    min-height: 14em;
+    overflow: hidden;
+    border-radius: 30px;
+
+}
+
+.video-image{
+
+
+}
+
